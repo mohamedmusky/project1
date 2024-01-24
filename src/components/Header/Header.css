@@ -1,0 +1,45 @@
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: #973535;
+}
+
+.logo1{
+    margin-bottom: 10px;
+    color: white;
+   
+}
+.img{
+    width: 300px;
+    height: auto;
+    
+}
+
+.user{
+   
+    flex-direction: column;
+    align-items: center;
+}
+
+.col1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the right side */
+  }
+  
+  .logo img {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+  }
+  
+  .buttonmenu:hover{
+      background-color: #973535;
+  }
+  .buttonmenu{
+    margin-left: 50px;
+  }
